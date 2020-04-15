@@ -37,3 +37,8 @@ This repository has tree folders:
 - **Run the mobile**:
   - cd fastfeet/mobile && yarn
   - use yarn react-native run-ios or yarn react-native run-android
+
+## Photos
+
+<img src="backend/src/assets/web.png" alt="web"/>
+<img src="backend/src/assets/mobile.png" alt="mobile"/>

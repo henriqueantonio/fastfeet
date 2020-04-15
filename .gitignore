@@ -66,4 +66,4 @@ mobile/*/fastlane/screenshots
 
 mobile/*.jsbundle
 
-mobile//ios/Pods/
+mobile/ios/Pods/
