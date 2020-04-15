@@ -41,4 +41,4 @@ This repository has tree folders:
 ## Photos
 
 <img src="backend/src/assets/web.png" alt="web"/>
-<img src="backend/src/assets/mobile.png" alt="mobile" style="height: 300px; display: block; margin: 0 auto"/>
+<img src="backend/src/assets/mobile.png" alt="mobile" />
