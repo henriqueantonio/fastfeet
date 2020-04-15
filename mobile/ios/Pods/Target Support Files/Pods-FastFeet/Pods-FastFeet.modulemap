@@ -1,0 +1,6 @@
+module Pods_FastFeet {
+  umbrella header "Pods-FastFeet-umbrella.h"
+
+  export *
+  module * { export * }
+}

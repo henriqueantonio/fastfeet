@@ -1,0 +1,4 @@
+#Tue Mar 31 23:19:38 BRT 2020
+base.0=/Users/henriqueolivoantonio/Desktop/RocketSeat/GoStack/certificacao/frontend/fastfeetmobile/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

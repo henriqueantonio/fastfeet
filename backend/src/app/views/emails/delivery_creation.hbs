@@ -1,0 +1,13 @@
+<strong>Olá, {{ deliveryman_name }}</strong>
+<p>Uma entrega acaba de sair quentinha do forno especialmente para você!</p>
+<p>
+  <strong>Cliente: </strong> {{ recipient.name }} <br />
+  <strong>Produto: </strong> {{ product }} <br />
+  <strong>Endereço:</strong> <br>
+  <p><strong>Rua: </strong> {{recipient.street}}</p>
+  <p><strong>Número: </strong> {{recipient.number}}</p>
+  <p><strong>Complemento: </strong> {{recipient.complement}}</p>
+  <p><strong>Estado: </strong> {{recipient.state}}</p>
+  <p><strong>Cidade: </strong>{{recipient.city}}</p>
+  <p><strong>CEP: </strong> {{recipient.cep}}</p>
+</p>
