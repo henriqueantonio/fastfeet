@@ -1,6 +1,6 @@
 # 👟 FastFeet Project
 
-FastFeet Project for [**@rocketseat**](www.rocketseat.com.br) certification.
+FastFeet Project for [**@rocketseat**](https://www.rocketseat.com.br) certification.
 
 ## 🗾 Images
 
@@ -26,7 +26,7 @@ This repository has tree folders:
 
 ## 🧾 How to run (step by step)
 
-- **Clone** this repository;
+- **Clone this repository**;
 
 ```bash
 # clone the repository
