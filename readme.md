@@ -1,8 +1,15 @@
-# FastFeet Project
+# 👟 FastFeet Project
 
-FastFeet Project for **@rocketseat** certification.
+FastFeet Project for [**@rocketseat**](www.rocketseat.com.br) certification.
 
-## Overview
+## 🗾 Images
+
+<h1 align="center">
+  <img src="backend/src/assets/web.png" alt="web"/>
+  <img src="backend/src/assets/mobile.png" alt="mobile" />
+<h1>
+
+## 📃 Overview
 
 This repository has tree folders:
 
@@ -10,35 +17,63 @@ This repository has tree folders:
 - **frontend** - A folder for web project made in React.
 - **mobile** - A folder for mobile project made in React Native.
 
-## Requiriments
+## 📋 Requirements
 
 - **Yarn** or npm;
 - **Postgres** - Relational database
 - **Redis** - Non-relational database
 - **E-mail** - I use **mailtrap** for development
 
-## How to run (step by step)
+## 🧾 How to run (step by step)
 
 - **Clone** this repository;
+
+```bash
+# clone the repository
+git clone https://github.com/henriqueantonio/fastfeet.git
+
+```
+
 - **Run the backend**:
 
-  - cd fastfeet/backend && yarn
-  - copy the .env.example and make your own .env (configuring Postgres, Redis and Mail)
-  - yarn sequelize db:migrate
-  - yarn sequelize db:seed:all
-  - use yarn dev to run the server
-  - use yarn queue to run the queue for e-mail
+```bash
+  # enter the repository and use yarn tu run the dependencies
+  cd fastfeet/backend && yarn
+
+  # copy the .env.example and make your own .env (configuring Postgres, Redis, Mail and your APP_SECRET)
+
+  # run the database migrations
+  yarn sequelize db:migrate
+
+  # run the seeds migrations
+  yarn sequelize db:seed:all
+
+  # run the server
+  yarn dev
+
+  # run the queue to send e-mails
+  yarn queue
+```
 
 - **Run the web**:
 
-  - cd fastfeet/web && yarn
-  - use yarn start to start de application
+```bash
+  # enter the repository and use yarn tu run the dependencies
+  cd fastfeet/web && yarn
+
+  # run the application
+  yarn start
+```
 
 - **Run the mobile**:
-  - cd fastfeet/mobile && yarn
-  - use yarn react-native run-ios or yarn react-native run-android
 
-## Photos
+```bash
+  # enter the repository and use yarn tu run the dependencies
+  cd fastfeet/mobile && yarn
 
-<img src="backend/src/assets/web.png" alt="web"/>
-<img src="backend/src/assets/mobile.png" alt="mobile" />
+  # run the application on ios
+  yarn react-native run-ios
+
+  # run the application on android
+  yarn react-native run-android
+```
