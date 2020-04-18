@@ -59,7 +59,7 @@ git clone https://github.com/henriqueantonio/fastfeet.git
 
 ```bash
   # enter the repository and use yarn tu run the dependencies
-  cd fastfeet/web && yarn
+  cd .. && cd fastfeet/frontend && yarn
 
   # run the application
   yarn start
@@ -69,7 +69,7 @@ git clone https://github.com/henriqueantonio/fastfeet.git
 
 ```bash
   # enter the repository and use yarn tu run the dependencies
-  cd fastfeet/mobile && yarn
+  cd .. && cd fastfeet/mobile && yarn
 
   # run the application on ios
   yarn react-native run-ios
