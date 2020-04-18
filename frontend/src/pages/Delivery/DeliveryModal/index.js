@@ -41,7 +41,7 @@ export default function DeliveryModal({ visu, setVisu }) {
         <p>
           <strong>Entrega:</strong>{' '}
           {(visu &&
-            visu.start_date &&
+            visu.end_date &&
             format(new Date(visu.end_date), 'dd/MM/yyyy')) ||
             'Data indefinida'}
         </p>
